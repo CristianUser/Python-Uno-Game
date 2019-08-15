@@ -27,4 +27,6 @@ class Card:
         color = self.color.upper()
         style = getattr(Fore, 'WHITE') + getattr(Back, color)
         print style + '|',self.value,'|' + Style.RESET_ALL,
-        
+    
+    def setColor(self, color):
+        self.color = color

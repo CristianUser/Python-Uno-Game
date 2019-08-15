@@ -18,8 +18,8 @@ class CardSet:
             self.cards.append(Card('+4', 'black', 'add4'))
             self.cards.append(Card('+2', self.colors[i], 'add2'))
             self.cards.append(Card('+2', self.colors[i], 'add2'))
-            self.cards.append(Card('&', self.colors[i], 'reverse'))
-            self.cards.append(Card('&', self.colors[i], 'reverse'))
+            self.cards.append(Card('Z', self.colors[i], 'reverse'))
+            self.cards.append(Card('Z', self.colors[i], 'reverse'))
             for v in range(0, 9):
                 self.cards.append(Card(v, self.colors[i], 'number'))
                 if (v != 0):
